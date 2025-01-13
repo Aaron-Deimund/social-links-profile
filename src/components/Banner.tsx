@@ -1,6 +1,8 @@
-const Banner = () =>{
+import styles from "./Banner.module.css";
+
+const Banner = (props:{headerText:string}) =>{
     return(
-        <h1 className="banner">My New Banner!!!!!</h1>
+        <h1 className={styles.header}>{props.headerText}</h1>
     );
 }
 

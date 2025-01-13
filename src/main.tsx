@@ -6,7 +6,7 @@ import Banner from './components/Banner.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Banner />
+    <Banner headerText = "Hello!" />
     <App />
   </StrictMode>,
 )
