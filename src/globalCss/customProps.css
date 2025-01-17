@@ -1,68 +1,88 @@
 /* Custom Properties and Presets from the Figma design file. */
 :root {
-  --gray-950: hsl(0, 0%, 7%);
-  --gray-500: hsl(0, 0%, 42%);
-  --white: hsl(0, 0%, 100%);
-  --yellow: hsl(47, 88%, 63%);
+	--gray-950: hsl(0, 0%, 7%);
+	--gray-900: hsl(0, 0%, 8%);
+	--gray-800: hsl(0, 0%, 12%);
+	--gray-700: hsl(0, 0%, 20%);
+	--gray-500: hsl(0, 0%, 42%);
+	--white: hsl(0, 0%, 100%);
 
-  --space-50: 4px;
-  --space-100: 8px;
-  --space-150: 12px;
-  --space-300: 24px;
+	--yellow: hsl(47, 88%, 63%);
+	--green: hsl(75, 94%, 57%);
 
-  --text-1_font-size: 1.3rem;
-  --text-1_font-weight: 800;
-  --text-1_line-height: 150%;
-  --text-1_letter-spacing: 0;
+	--space-50: 4px;
+	--space-100: 8px;
+	--space-150: 12px;
+	--space-200: 16px;
+	--space-300: 24px;
+	--space-500: 40px;
 
-  --text-2_font-size: 1rem;
-  --text-2_font-weight: 400;
-  --text-2_line-height: 150%;
-  --text-2_letter-spacing: 0;
+	/* 24px */
+	--text-1_font-size: 1.5rem;
+	--text-1_font-weight: 800;
+	--text-1_line-height: 150%;
+	--text-1_letter-spacing: 0;
 
-  --text-3_font-size: 0.875rem;
-  --text-3_font-weight: 500;
-  --text-3_font-weight-bold: 700;
-  --text-3_line-height: 150%;
-  --text-3_letter-spacing: 0;
+	/* 14px */
+	--text-2_font-size: .875rem;
+	--text-2_font-weight: 400;
+	--text-2_font-weight-bold: 800;
+	--text-2_line-height: 150%;
+	--text-2_letter-spacing: 0;
+
+	--text-3_font-size: 0.875rem;
+	--text-3_font-weight: 500;
+	--text-3_font-weight-bold: 800;
+	--text-3_line-height: 150%;
+	--text-3_letter-spacing: 0;
 }
 
+/*
 @font-face {
 	font-family: "figtree";
 	src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
 }
+*/
 
 main {
-  color: var(--gray-950);
-  font-family: "figtree";
+	color: var(--gray-950);
+	font-family: "figtree";
 }
 
 .text-preset-1,
 h3 {
-  font-size: var(--text-1_font-size);
-  font-weight: var(--text-1_font-weight);
-  line-height: var(--text-1_line-height);
-  letter-spacing: var(--text-1_letter-spacing);
+	font-size: var(--text-1_font-size);
+	font-weight: var(--text-1_font-weight);
+	line-height: var(--text-1_line-height);
+	letter-spacing: var(--text-1_letter-spacing);
 }
 
 .text-preset-2 {
-  color: var(--gray-500);
-  font-size: var(--text-2_font-size);
-  font-weight: var(--text-2_font-weight);
-  line-height: var(--text-2_line-height);
-  letter-spacing: var(--text-2_letter-spacing);
+	color: var(--gray-500);
+	font-size: var(--text-2_font-size);
+	font-weight: var(--text-2_font-weight);
+	line-height: var(--text-2_line-height);
+	letter-spacing: var(--text-2_letter-spacing);
+}
+
+.text-preset-2__bold {
+	color: var(--gray-500);
+	font-size: var(--text-2_font-size);
+	font-weight: var(--text-2_font-weight-bold);
+	line-height: var(--text-2_line-height);
+	letter-spacing: var(--text-2_letter-spacing);
 }
 
 .text-preset-3 {
-  font-size: var(--text-3_font-size);
-  font-weight: var(--text-3_font-weight);
-  line-height: var(--text-3_line-height);
-  letter-spacing: var(--text-3_letter-spacing);
+	font-size: var(--text-3_font-size);
+	font-weight: var(--text-3_font-weight);
+	line-height: var(--text-3_line-height);
+	letter-spacing: var(--text-3_letter-spacing);
 }
 
 .text-preset-3__bold {
-  font-size: var(--text-3_font-size);
-  font-weight: var(--text-3_font-weight-bold);
-  line-height: var(--text-3_line-height);
-  letter-spacing: var(--text-3_letter-spacing);
+	font-size: var(--text-3_font-size);
+	font-weight: var(--text-3_font-weight-bold);
+	line-height: var(--text-3_line-height);
+	letter-spacing: var(--text-3_letter-spacing);
 }

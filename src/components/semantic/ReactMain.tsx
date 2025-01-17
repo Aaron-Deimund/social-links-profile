@@ -1,11 +1,19 @@
 import './ReactMain.css';
 
+import '../reusable/UserBlock';
+import UserBlock from '../reusable/UserBlock';
+
 function ReactMain() {
   return (
     <main>
-		Aaron Deimund
-		Warrenton, Missouri
-		"Full-stack developer and avid TTRPG fan."	  
+		<UserBlock 
+			name={"Aaron Deimund"} 
+			location={"Warrenton, Missouri"}
+			tagline={"Full-stack developer and avid TTRPG fan."}
+		/>
+		
+		
+			  
 		GitHub
 		Frontend Mentor
 		LinkedIn
