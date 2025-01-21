@@ -1,6 +1,6 @@
-import './link.css';
+import './linkCustom.css';
 
-function Link(props:{
+function linkCustom(props:{
 	url:string
 	text:string
 }) {
@@ -9,4 +9,4 @@ function Link(props:{
   )
 }
 
-export default Link;
+export default linkCustom;

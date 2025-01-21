@@ -1,17 +1,20 @@
-import './socialLinks.css';
-import './link';
-import * as socials from '../../assets/socials.json';
+import './SocialLinks.css';
+import LinkCustom from './LinkCustom';
+import * as data from '../../assets/data.json'
 
-function Link(props:{
-	url:string
-	text:string
-}) {
-  let links:{} = socials;
+function SocialLinks() {
   return (
+	
     <div className='socials'>
-
+		{data.links.map( (k) =>(
+			<LinkCustom
+				url={k.url}
+				text = {k.site}
+			/>
+			//<a href= {k.url}>{k.site}</a>
+		))}
 	</div>
   )
 }
 
-export default Link;
+export default SocialLinks;
