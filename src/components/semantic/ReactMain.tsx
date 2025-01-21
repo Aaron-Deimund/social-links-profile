@@ -12,13 +12,6 @@ function ReactMain() {
 			location="Warrenton, Missouri"
 			tagline="Full-stack developer and avid TTRPG fan."
 		/>
-		
-		
-			  
-		GitHub
-		Frontend Mentor
-		LinkedIn
-		BlueSky
     </main>
   )
 }
