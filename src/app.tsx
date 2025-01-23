@@ -1,7 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import '/src/globalCss/reset.css';
-import '/src/globalCss/customProps.css';
+import '/src/settings/reset.css';
+import '/src/settings/customProps.css';
+import './app.css'
 
 // Semantic Components
 import ReactHeader from './components/semantic/ReactHeader'

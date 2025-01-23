@@ -8,7 +8,7 @@ function UserBlock(props:{
 }) {
   return (
     <div className='user-block'>
-		<img src={props.portraitUrl} alt={props.name + "-portrait"} />
+		<img src={props.portraitUrl} alt={props.name + "-portrait"}/>
 		<p className='text-preset-1'>{props.name}</p>
 		<p className='text-preset-2__bold'>{props.location}</p>
 		<p className='text-preset-2'>{props.tagline}</p>

@@ -1,19 +1,12 @@
 import './ReactMain.css';
 
-import UserBlock from '../reusable/UserBlock';
-import SocialLinks from '../reusable/SocialLinks';
-import aaron from '../../assets/images/avatar-aaron.jpeg';
+import UserCard from '../reusable/UserCard';
 
 function ReactMain() {
   return (
     <main>
-		<UserBlock 
-			portraitUrl= {aaron}
-			name="Aaron Deimund"
-			location="Warrenton, Missouri"
-			tagline="Full-stack developer and avid TTRPG fan."
-		/>
-		<SocialLinks/>
+		<UserCard>
+		</UserCard>
 
     </main>
   )

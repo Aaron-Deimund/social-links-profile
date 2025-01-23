@@ -1,0 +1,5 @@
+.custom-link{
+	display: block;
+	color: var(--white);
+	background-color: var(--grey-700);
+}

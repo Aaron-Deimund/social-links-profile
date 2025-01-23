@@ -11,7 +11,6 @@ function SocialLinks() {
 				url={k.url}
 				text = {k.site}
 			/>
-			//<a href= {k.url}>{k.site}</a>
 		))}
 	</div>
   )

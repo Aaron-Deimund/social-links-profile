@@ -5,7 +5,7 @@ function linkCustom(props:{
 	text:string
 }) {
   return (
-    <a href={props.url}>{props.text}</a>
+    <a className="custom-link text-preset-2__bold" href={props.url}>{props.text}</a>
   )
 }
 
