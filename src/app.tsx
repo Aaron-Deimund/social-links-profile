@@ -1,7 +1,5 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import '/src/settings/reset.css';
-import '/src/settings/customProps.css';
 import './app.css'
 
 // Semantic Components

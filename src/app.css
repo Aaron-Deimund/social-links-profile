@@ -1,4 +1,166 @@
+/* Reset from https://piccalil.li/blog/a-more-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+/* End Reset */
+
+
+/* Custom Properties and Presets from the Figma design file. */
+:root {
+	--gray-950: hsl(0, 0%, 7%);
+	--gray-900: hsl(0, 0%, 8%);
+	--gray-800: hsl(0, 0%, 12%);
+	--gray-700: hsl(0, 0%, 20%);
+	--gray-500: hsl(0, 0%, 42%);
+	--white: hsl(0, 0%, 100%);
+
+	--yellow: hsl(47, 88%, 63%);
+	--green: hsl(75, 94%, 57%);
+
+	--space-50: 4px;
+	--space-100: 8px;
+	--space-150: 12px;
+	--space-200: 16px;
+	--space-300: 24px;
+	--space-500: 40px;
+
+	/* 24px */
+	--text-1_font-size: 1.5rem;
+	--text-1_font-weight: 800;
+	--text-1_line-height: 150%;
+	--text-1_letter-spacing: 0;
+
+	/* 14px */
+	--text-2_font-size: .875rem;
+	--text-2_font-weight: 400;
+	--text-2_font-weight-bold: 800;
+	--text-2_line-height: 150%;
+	--text-2_letter-spacing: 0;
+
+	--text-3_font-size: 0.875rem;
+	--text-3_font-weight: 500;
+	--text-3_font-weight-bold: 800;
+	--text-3_line-height: 150%;
+	--text-3_letter-spacing: 0;
+}
+
+
+@font-face {
+	font-family: Inter;
+	src: url("./assets/fonts/Inter-VariableFont.ttf");
+}
+
+.text-preset-1,
+h3 {
+	font-size: var(--text-1_font-size);
+	font-weight: var(--text-1_font-weight);
+	line-height: var(--text-1_line-height);
+	letter-spacing: var(--text-1_letter-spacing);
+}
+
+.text-preset-2 {
+	color: var(--gray-500);
+	font-size: var(--text-2_font-size);
+	font-weight: var(--text-2_font-weight);
+	line-height: var(--text-2_line-height);
+	letter-spacing: var(--text-2_letter-spacing);
+}
+
+.text-preset-2__bold {
+	color: var(--gray-500);
+	font-size: var(--text-2_font-size);
+	font-weight: var(--text-2_font-weight-bold);
+	line-height: var(--text-2_line-height);
+	letter-spacing: var(--text-2_letter-spacing);
+}
+
+.text-preset-3 {
+	font-size: var(--text-3_font-size);
+	font-weight: var(--text-3_font-weight);
+	line-height: var(--text-3_line-height);
+	letter-spacing: var(--text-3_letter-spacing);
+}
+
+.text-preset-3__bold {
+	font-size: var(--text-3_font-size);
+	font-weight: var(--text-3_font-weight-bold);
+	line-height: var(--text-3_line-height);
+	letter-spacing: var(--text-3_letter-spacing);
+}
+/* End Presets */
+
 body{
 	display: grid;
 	margin: 0;
+	font-family: Inter, Arial, Helvetica, sans-serif;
 }
