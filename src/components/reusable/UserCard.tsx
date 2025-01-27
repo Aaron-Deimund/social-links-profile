@@ -9,9 +9,9 @@ function UserCard() {
     <div className='user-card'>
 		<UserBlock 
 			portraitUrl= {aaron}
-			name="Aaron Deimund"
-			location="Warrenton, Missouri"
-			tagline="Full-stack developer and avid TTRPG fan."
+			name='Aaron Deimund'
+			location='Warrenton, Missouri'
+			tagline='"Full-stack developer and avid TTRPG fan."'
 		/>
 		<SocialLinks/>
 

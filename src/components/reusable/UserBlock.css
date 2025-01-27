@@ -1,9 +1,15 @@
 img{
-	width: 250px;
+	width: 88px;
 	aspect-ratio: 1/1;
 	border-radius: 50%;
 }
 
 .user-block{
 	background-color: var(--gray-800);
+    display: flex;
+	align-items: center;
+    flex-direction: column;
+	.text-preset-2__bold{
+		color:var(--green);
+	}
 }

@@ -96,14 +96,14 @@ textarea:not([rows]) {
 
 	/* 24px */
 	--text-1_font-size: 1.5rem;
-	--text-1_font-weight: 800;
+	--text-1_font-weight: 500;
 	--text-1_line-height: 150%;
 	--text-1_letter-spacing: 0;
 
 	/* 14px */
 	--text-2_font-size: .875rem;
-	--text-2_font-weight: 400;
-	--text-2_font-weight-bold: 800;
+	--text-2_font-weight: 200;
+	--text-2_font-weight-bold: 500;
 	--text-2_line-height: 150%;
 	--text-2_letter-spacing: 0;
 
@@ -122,6 +122,7 @@ textarea:not([rows]) {
 
 .text-preset-1,
 h3 {
+	color: var(--white);
 	font-size: var(--text-1_font-size);
 	font-weight: var(--text-1_font-weight);
 	line-height: var(--text-1_line-height);
@@ -129,7 +130,7 @@ h3 {
 }
 
 .text-preset-2 {
-	color: var(--gray-500);
+	color: var(--white);
 	font-size: var(--text-2_font-size);
 	font-weight: var(--text-2_font-weight);
 	line-height: var(--text-2_line-height);
@@ -137,7 +138,7 @@ h3 {
 }
 
 .text-preset-2__bold {
-	color: var(--gray-500);
+	color: var(--white);
 	font-size: var(--text-2_font-size);
 	font-weight: var(--text-2_font-weight-bold);
 	line-height: var(--text-2_line-height);

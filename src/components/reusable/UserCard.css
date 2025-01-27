@@ -1,0 +1,5 @@
+.user-card{
+	padding: var(--space-500);
+	border-radius: 10px;
+	background-color: var(--gray-800);
+}

@@ -1,7 +1,11 @@
 .socials{
-	background-color: var(--gray-700);
-	.custom-links{
-
-		margin: 15px;
+	background-color: var(--gray-800);
+	
+		.custom-link:first-child{
+			margin-top: var(--space-300);
+		}
+	
+	.custom-link:not(:first-child){
+		margin-top: var(--space-200);
 	}
 }
