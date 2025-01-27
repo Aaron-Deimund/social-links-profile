@@ -1,6 +1,6 @@
 import './UserCard.css';
 
-import UserBlock from './UserBlock';
+import UserBlock from './UserBlock.tsx';
 import SocialLinks from './SocialLinks.tsx';
 import aaron from '../../assets/images/avatar-aaron.jpeg';
 

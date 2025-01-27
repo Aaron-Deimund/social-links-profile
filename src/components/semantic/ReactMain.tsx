@@ -1,6 +1,6 @@
 import './ReactMain.css';
 
-import UserCard from '../reusable/UserCard';
+import UserCard from '../reusable/UserCard.tsx';
 
 function ReactMain() {
   return (
