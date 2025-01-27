@@ -1,7 +1,7 @@
 import './UserCard.css';
 
 import UserBlock from './UserBlock';
-import SocialLinks from './SocialLinks';
+import SocialLinks from './SocialLinks.tsx';
 import aaron from '../../assets/images/avatar-aaron.jpeg';
 
 function UserCard() {
