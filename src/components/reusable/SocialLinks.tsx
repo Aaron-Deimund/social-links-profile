@@ -1,19 +1,18 @@
-import './SocialLinks.css';
-import LinkCustom from './LinkCustom.tsx';
-import * as data from '../../assets/data.json'
+import "./SocialLinks.css";
+import LinkCustom from "./LinkCustom.tsx";
 
-function SocialLinks() {
+function SocialLinks(
+	props: { 
+		links: 
+			{ site: string; url: string }[]
+	}) {
   return (
-	
-    <div className='socials'>
-		{data.links.map( (k) =>(
-			<LinkCustom
-				url={k.url}
-				text = {k.site}
-			/>
-		))}
-	</div>
-  )
+    <div className="socials">
+      {props.links.map((k) => (
+        <LinkCustom url={k.url} text={k.site} />
+      ))}
+    </div>
+  );
 }
 
 export default SocialLinks;

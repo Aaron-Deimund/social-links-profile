@@ -1,0 +1,21 @@
+{
+	"firstName" : "Aaron",
+	"lastName" : "Deimund",
+	"city": "Warrenton",
+	"state" : "Missouri",
+	"stateCd": "MO",
+	"country": "United States",
+	"countryCd":"US",
+	"tagLine": "Full-stack developer and avid TTRPG fan.",
+	"portraitUrl":"../../assets/images/portraits/aaron.jpeg",
+	"links": [
+		{"site" : "GitHub", 
+			"url" : "https://github.com/Aaron-Deimund"},
+		{"site" : "Frontend Mentor", 
+			"url" : "https://www.frontendmentor.io/profile/Aaron-Deimund"},
+		{"site" : "LinkedIn", 
+			"url" : "https://www.linkedin.com/in/aaron-deimund-2154ab126/"},
+		{"site" : "BlueSky", 
+			"url" : "https://bsky.app/profile/acdeimund"}
+	]
+} 
