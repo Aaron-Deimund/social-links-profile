@@ -112,6 +112,8 @@ textarea:not([rows]) {
 	--text-3_font-weight-bold: 800;
 	--text-3_line-height: 150%;
 	--text-3_letter-spacing: 0;
+
+	--transition-time: .25s;
 }
 
 
