@@ -7,3 +7,8 @@
 	text-align: center;
 	text-decoration: none;
 }
+
+.custom-link:hover{
+	background-color: var(--green);
+	color: var(--gray-800);
+}
