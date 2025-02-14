@@ -1,4 +1,4 @@
-import "./linkCustom.css";
+import "./LinkCustom.css";
 
 function linkCustom(props: { url: string; text: string }) {
 	return (
